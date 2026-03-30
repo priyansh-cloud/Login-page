@@ -3,7 +3,7 @@
 This is a simple login page created using HTML and CSS.
 
 ## Live Demo
-priyanshu-login-page.netlify.app
+https://priyanshu-login-page.netlify.app
 
 ## Features
 - Username and Password input
