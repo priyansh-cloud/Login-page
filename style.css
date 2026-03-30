@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+#mainBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#box1{
+    height: 500px;
+    width: 400px;
+    border: 2px black solid;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+
+}
+
+
+#box2{
+    height: 500px;
+    width: 400px;
+    border: 2px black solid;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #0e1e2a;
+    
+}
+
+.login{
+    text-align: center;
+    margin-top: 35px;
+    color: #be1e1e;
+    font-size: 25px;
+}
+
+.user{
+    position: relative;
+    width: 250px;
+    margin: 20px auto;
+}
+ i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.email{
+    position: relative;
+    margin: 20px auto;
+    width: 250px;
+    
+}
+
+.phone{
+    position: relative;
+    margin: 20px auto;
+    width: 250px;
+    
+}
+
+.pwd{
+    position: relative;
+    margin: 20px auto;
+    width: 250px;
+    
+}
+input{
+    width: 220px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 20px;
+    padding-left: 40px;
+    
+}
+
+.sign-up{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.sign-up input{
+    font-size:16px ;
+    margin-left: 16px;
+    text-align: center;
+    text-indent: -40px;
+    background-color: #000000;
+    color: aliceblue;
+    height: 38px;
+    
+}
+.image{
+    background-image: url(spider.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: -82%;
+
+}
+.user :hover{
+    border: 4px solid #d0a92c;
+}
+.email :hover{
+    border: 4px solid #d0a92c;
+}
+.phone :hover{
+    border: 4px solid #d0a92c;
+}
+.pwd :hover{
+    border: 4px solid #d0a92c;
+}
+.sign-up :hover{
+    border: 4px solid #d0a92c;
+}
+
+.logo1{
+    position: relative;
+    width:300px;
+    margin: 45px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.logo1 i{
+    font-size: 30px;
+    display: block;
+    position: static;
+    color: #f3f6f4;
+    
+}
+
+/* .logo2{
+    position: relative;
+    width: 250px;
+    margin: 45px auto;
+    display: flex
+}
+.logo2 i{
+    font-size: 30px;
+    justify-content: space-evenly;
+} */
+
+
+/* body{
+    background-image: url(spiderman.jpg);
+    background-size: contain;
+    filter: blur(5);
+} */
+
+/* body{
+    margin: 0;
+    position: relative;
+} */
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(spiderman.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(1.75px);
+    z-index: -1;
+}
